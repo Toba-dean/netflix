@@ -1,4 +1,4 @@
-import { useState } from 'react';
+// import { useState } from 'react';
 import { Link as ReachRouterLink } from 'react-router-dom';
 import { Background, Container, Logo, ButtonLink } from './styles/Header.styles';
 
