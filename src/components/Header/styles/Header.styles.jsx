@@ -62,6 +62,7 @@ export const SearchInput = styled.input`
   opacity: ${({ active }) => (active === true ? '1' : '0')};
   width: ${({ active }) => (active === true ? '200px' : '0px')};
 
+  
   &:focus {
     background-color: rgba(0, 0, 0, 0.8);
   }
@@ -130,10 +131,10 @@ export const Dropdown = styled.div`
   display: none;
   position: absolute;
   background-color: black;
-  padding: 10px;
+  padding: 15px;
   width: 100px;
   top: 32px;
-  right: 10px;
+  right: 1px;
 
   ${Group}:last-of-type ${Link} {
     cursor: pointer;
@@ -146,11 +147,7 @@ export const Dropdown = styled.div`
       margin-bottom: 0;
     }
 
-    ${Link} {
-      cursor: pointer;
-    }
-
-    ${Picture} {
+    ${Link}, ${Picture} {
       cursor: default;
     }
   }
