@@ -21,8 +21,6 @@ export default function useContent(target) {
       .catch(e => {
         console.log(e.message);
       })
-
-      console.log(content);
   }, [])
 
   return { [target]: content }

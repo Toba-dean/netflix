@@ -5,3 +5,5 @@ export { default as OptForm } from './opt-form';
 export { default as Header } from './Header';
 export { default as Feature } from './feature';
 export { default as Form } from './Form';
+export { default as Profiles } from './profiles';
+export { default as Loading } from './loading';
