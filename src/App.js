@@ -46,4 +46,5 @@ export default function App() {
       </ProtectedRoute>
     </Switch>
   );
+
 }

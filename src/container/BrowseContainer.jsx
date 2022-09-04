@@ -9,7 +9,6 @@ import FooterContainer from './FooterContainer';
 
 export function BrowseContainer({ slides }) {
 
-  console.log(slides);
   const [category, setCategory] = useState('series');
   const [profile, setProfile] = useState({});
   const [loading, setLoading] = useState(true);
